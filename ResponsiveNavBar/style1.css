@@ -1,26 +1,30 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 body {
   margin: 0;
   padding: 0;
+  border-color: red;
+  border-style: solid;
 }
 
 .navbar {
   display: flex;
+  border-color: red;
+  border-style: solid;
 }
 
 ul {
-  list-style: upper-alpha;
-  list-style-type: square;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-color: blue;
+  border-style: solid;
+  text-align: center;
 }
 li {
-  list-style-type: square;
-  display: list-item;
-  margin-left: 1em;
-}
-
-ul li {
-  list-style-type: square;
+  display: inline;
+  border-color: greenyellow;
+  border-style: solid;
 }
